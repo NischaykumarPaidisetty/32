@@ -8,7 +8,7 @@ var stone1, stone2, stone3,stone4;
 var ironman,venom,rope,ground;
 
 function preload() {
-  bg = loadImage("gamingbackground1.png");
+  bg = loadImage("gamingbackground1.jpg");
 }
 
 function setup() {
@@ -23,22 +23,22 @@ function setup() {
   rope = new Rope(ironman.body, { x: 500, y: 50 });
   venom = new Venom(1100,550,300);
 
-  stone1 = new stone(900, 100, 70, 70);
-  stone2 = new stone(900, 100, 70, 70);
-  stone3 = new stone(900, 100, 70, 70);
-  stone4 = new stone(900, 100, 70, 70);
-  stone5 = new stone(900, 100, 70, 70);
-  stone6 = new stone(900, 100, 70, 70);
-  stone7 = new stone(900, 100, 70, 70);
-  stone8 = new stone(900, 100, 70, 70);
-  stone9 = new stone(900, 100, 70, 70);
-  stone10 = new stone(800, 100, 70, 70);
-  stone11 = new stone(800, 100, 70, 70);
-  stone12 = new stone(800, 100, 70, 70);
-  stone13 = new stone(800, 100, 70, 70);
-  stone14 = new stone(800, 100, 70, 70);
-  stone15 = new stone(800, 100, 70, 70);
-  stone16 = new stone(800, 100, 70, 70);
+  stone1 = new Stone(900, 100, 70, 70);
+  stone2 = new Stone(900, 100, 70, 70);
+  stone3 = new Stone(900, 100, 70, 70);
+  stone4 = new Stone(900, 100, 70, 70);
+  stone5 = new Stone(900, 100, 70, 70);
+  stone6 = new Stone(900, 100, 70, 70);
+  stone7 = new Stone(900, 100, 70, 70);
+  stone8 = new Stone(900, 100, 70, 70);
+  stone9 = new Stone(900, 100, 70, 70);
+  stone10 = new Stone(800, 100, 70, 70);
+  stone11 = new Stone(800, 100, 70, 70);
+  stone12 = new Stone(800, 100, 70, 70);
+  stone13 = new Stone(800, 100, 70, 70);
+  stone14 = new Stone(800, 100, 70, 70);
+  stone15 = new Stone(800, 100, 70, 70);
+  stone16 = new Stone(800, 100, 70, 70);
 
 
 }
